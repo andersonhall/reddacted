@@ -1,0 +1,17 @@
+/* Subreddit Styles */
+.subreddit {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.subredditImg {
+    max-width: 35px;
+    margin: 10px 15px;
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        max-width: 85%;
+    }
+  }

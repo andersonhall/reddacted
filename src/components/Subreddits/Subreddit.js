@@ -1,8 +1,14 @@
+import styles from "./subreddit.module.css";
+
 const Subreddit = () => {
   return (
-    <div className="subreddit">
-      <img src="https://placehold.co/50x50" alt="icon" />
-      <span>Subreddit name</span>
+    <div className={styles.subreddit}>
+      <img
+        className={styles.subredditImg}
+        src="https://placehold.co/50x50"
+        alt="icon"
+      />
+      <span className={styles.subredditName}>Subreddit name</span>
     </div>
   );
 };

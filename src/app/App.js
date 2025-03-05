@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <SearchBar />
-      <Subreddits />
-      <Posts />
+      <main>
+        <Posts />
+        <Subreddits />
+      </main>
     </div>
   );
 }
