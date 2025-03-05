@@ -1,9 +1,14 @@
 import "./App.css";
+import SearchBar from "../components/SearchBar/SearcBar";
+import Subreddits from "../components/Subreddits/Subreddits";
+import Posts from "../components/Posts/Posts";
 
 function App() {
   return (
     <div className="App">
-      <h1>My App</h1>
+      <SearchBar />
+      <Subreddits />
+      <Posts />
     </div>
   );
 }
