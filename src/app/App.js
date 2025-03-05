@@ -1,5 +1,5 @@
 import "./App.css";
-import SearchBar from "../components/SearchBar/SearcBar";
+import SearchBar from "../components/SearchBar/SearchBar";
 import Subreddits from "../components/Subreddits/Subreddits";
 import Posts from "../components/Posts/Posts";
 

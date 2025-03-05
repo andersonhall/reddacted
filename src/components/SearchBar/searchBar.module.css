@@ -1,0 +1,14 @@
+/* SearchBar Styles */
+input[type=text] {
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 25px;
+    width: 600px;
+    max-width: 70%;
+    font-size: 1.2rem;
+}
+
+.searchBar {
+    padding: 40px 0;
+    background-color: aliceblue;
+}
