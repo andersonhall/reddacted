@@ -1,0 +1,36 @@
+/* Post Styles */
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.postTitle {
+  text-align: left;
+}
+
+.postFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.postFooterLeft {
+  flex: 1;
+}
+
+.postFooterLeft p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.postFooterLeft p * {
+  margin-right: 5px;
+}
+
+.postFooterRight {
+  flex: 1;
+  text-align: right;
+  align-self: center;
+}
